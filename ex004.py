@@ -1,0 +1,8 @@
+n = input('Insira algo: ')
+print(type(n))
+print('É numérico? ', n.isnumeric())
+print('É alfabético? ', n.isalpha())
+print('É decimal? ', n.isdecimal())
+print('É numérico? ', n.isnumeric())
+print('É maiusculo? ', n.isupper())
+print('É minúsculo? ', n.islower())
